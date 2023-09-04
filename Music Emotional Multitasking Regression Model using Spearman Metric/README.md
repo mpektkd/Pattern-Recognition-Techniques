@@ -9,7 +9,7 @@ The present task deals with the music genre recognition and emotional dimensions
 - **Research Topic 4** (Multitask Model):<br />Again for the best models, we use (b) multi-task models for regression. The research interest here is that we experiment with a weighted multiloss of 3 Losses.
 
 In the case of trainable weights, weight has the form w = exp(-param), param(init) = [0,0,0] and
-fin_loss = exp(-param)*loss+param ([here]([https://github.com/mpektkd/Pattern-Recognition-Techniques/blob/0416a725658d79622ea8f780b904e38e9f4dd641/Music%20Emotional%20Multitasking%20Regression%20Model%20using%20Spearman%20Metric/lib.py#L101](https://github.com/mpektkd/Pattern-Recognition-Techniques/blob/386d1454cf43408577682d1db175cfd8b6876bbc/Music%20Emotional%20Multitasking%20Regression%20Model%20using%20Spearman%20Metric/lib.py#L101))). Since the weight is a decreasing function this means that as
+fin_loss = exp(-param)*loss+param ([here](https://github.com/mpektkd/Pattern-Recognition-Techniques/blob/d7d926e3a669cb2138a6dfd381e71b92448c49ea/Music%20Emotional%20Multitasking%20Regression%20Model%20using%20Spearman%20Metric/lib.py#L101)). Since the weight is a decreasing function this means that as
 loss is positive the param tends to increase in order to converge the weight to zero. Because
 however, our loss consists of the sum of spearman and mse, then this is done according to the order of
 of magnitudes and negative. Then the param tends to decrease to increase the weight and drop the loss.
