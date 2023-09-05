@@ -7,7 +7,7 @@ studies. The dataset we process concerns the recognition of individual digits (i
 digits) in English. The data you will use contains utterances of 9 out of 15 digits
 different speakers in separate .wav files. Totally, there are 133 files and 15 announcers.
 
-- **Research Topic 1**(Data Extraction):</br>
+- **Research Topic 1** (Data Extraction):</br>
   In this step, the MFCCs are extracted as well as their first and second derivatives, deltas
   and delt-deltas. For each audio file is selected window length 25 ms and step 10 ms and 13
   different features are extracted. Obviously because files have different time lengths, the
