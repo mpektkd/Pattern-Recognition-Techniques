@@ -45,7 +45,13 @@ The present task deals with the music genre recognition and emotional dimensions
   <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/7926dd05-cd98-4276-b4d7-689b5e7c97d4" width="500" height="300">
   <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/f07710f6-fa3a-4786-8c1f-fe6dfef0eaaa" width="400" height="300">
   
-
+   - **Notes**:<br />
+      ✓ By adding only mse-loss we get values ​​close to 0.5 which is not desirable, because in
+        in this case the model finds the easiest solution since most inputs
+        is from 0.3 to 0.8. To avoid this, Spearman-loss is added to have
+        results across the range from 0 to 1 and get consistent results.<br />
+      ✓ The specific implementation of Spearman loss is differentiable as its most basic implementation
+        Spearman-loss does not accept gradients. That's why the "fast_soft_sort" library was chosen.<br />
 - **Research Topic 3** (Transfer Learning from classifcation to Regression):<br />Also, after that we use the best model of Topic 1 for Transfer Learning for regression task e.g. CNN. We train a CNN one-task model per emotion. We show the results below:
   
   <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/c232749b-f82e-4beb-b5c1-17232e353aff" width="400" height="300">
