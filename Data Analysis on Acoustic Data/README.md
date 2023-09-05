@@ -41,9 +41,11 @@ different speakers in separate .wav files. Totally, there are 133 files and 15 a
 
   - Also, we apply reduction using PCA choosing as the final goal the existence of only 2
     dimensions. So for the two categories of vectors we re-form the scatter plots and we have:
+    
     <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/41060e39-e877-48c5-ba60-e86a0a01c44e" width="420" height="300">
     <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/c22a8f73-260d-4e7c-906c-66d81be29092" width="420" height="300">
     </br>
+    
     While in terms of the percentage of original variance retained by the resulting components, we have:
 
                                                         Percentage
