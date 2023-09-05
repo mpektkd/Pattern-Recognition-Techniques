@@ -86,3 +86,4 @@ different speakers in separate .wav files. Totally, there are 133 files and 15 a
     of the first and last case, it seems that the adding extra features improves the performance of
     classifiers. Specifically, in our case adding just one extra attributes to the data table is essential
     improving the performance of classifiers.
+  - One of the baselines in a custom implementation of Gaussian NB.
