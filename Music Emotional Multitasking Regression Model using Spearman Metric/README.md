@@ -40,7 +40,7 @@ The present task deals with the music genre recognition and emotional dimensions
              macro avg       0.28      0.28      0.26       575
           weighted avg       0.31      0.35      0.31       575
      
-- **Research Topic 2** (Regression Task):<br />Then, we use LSTM, CNN as Regression models to predict the emotional dimensions such as 'Valence', 'Energy', 'Danceability'. These models constitute the Baseline models for the comparison with the following models in topics 3, 4.The research interest here is that we use Spearman metric as Loss for training. We provide some results for the CNN model, that gives better results, for the emotion 'Valence' that shows the less correlation based on the Spearman Metric, in order to show the optimization in Topic 4.
+- **Research Topic 2** (Regression Task):<br />Then, we use LSTM, CNN as Regression models to predict the emotional dimensions such as 'Valence', 'Energy', 'Danceability'. These models constitute the Baseline models for the comparison with the following models in topics 3, 4.The research interest here is that we use Spearman metric as Loss for training. We provide some results for the CNN model, that gives better results, for the emotion 'Valence' that shows the less correlation based on the Spearman Metric, in order to show the improvement in Topic 4.
 
   <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/7926dd05-cd98-4276-b4d7-689b5e7c97d4" width="500" height="300">
   <img src="https://github.com/mpektkd/Pattern-Recognition-Techniques/assets/62422421/f07710f6-fa3a-4786-8c1f-fe6dfef0eaaa" width="400" height="300">
